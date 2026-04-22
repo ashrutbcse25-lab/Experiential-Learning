@@ -1,12 +1,82 @@
-
-<!DOCTYPE html>
 <html>
-<title> Cricket Quize </title>
+<head>
+    <title>Cricket quiz </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, green, green);
+            margin: 0;
+            padding: 0; }
+  h1 {
+            text-align: center;
+            background-color: pink;
+            color: white;
+            padding: 15px;
+            margin: 0; }
+ form {     width: 80%;
+            max-width: 700px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2); }
+ div {      margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: pink; } 
+ p {        font-weight: bold; }
+            input[type="radio"] {
+            margin-right: 8px;
+            cursor: pointer;} 
+ label {    display: block;
+            margin-bottom: 5px;
+            cursor: pointer; }
+           input[type="submit"],
+        input[type="reset"] {
+            width: 48%;
+            padding: 10px;
+            margin: 5px 1%;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        input[type="submit"] {
+            background-color: red;
+            color: white;
+        }
+
+        input[type="reset"] {
+            background-color: red;
+            color: white;
+        }
+
+        input[type="submit"]:hover {
+            background-color: black;
+        }
+
+        input[type="reset"]:hover {
+            background-color: black ;
+        }
+
+        @media (max-width: 600px) {
+            form {
+                width: 95%;
+            }
+
+            input[type="submit"],
+            input[type="reset"] {
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-<h1> Quiz</h1>
+<h1> Cricket Quiz</h1>
 
 <form>
 
